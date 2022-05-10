@@ -1,0 +1,15 @@
+.grid-item {
+    text-align: center;
+  }
+
+  .event-count{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .event-name{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }

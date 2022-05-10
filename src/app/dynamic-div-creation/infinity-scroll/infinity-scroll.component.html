@@ -1,0 +1,12 @@
+<div infiniteScroll [infiniteScrollDistance]="0.1" (scrolled)="onScroll()">
+  <div *ngFor="let post of posts" class="center">
+    <div class="customdiv">
+      <button type="button" (click)="openDialog(post)">{{ post }}</button>
+    </div>
+  </div>
+</div>
+
+<app-dialog [visible]="showDialog" class="center">
+  <h3>{{divNo}} <sup>th</sup> div clicked.</h3> 
+  <button (click)="showDialog = !showDialog" class="btn">Close</button>
+</app-dialog>

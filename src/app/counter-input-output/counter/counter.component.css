@@ -1,0 +1,25 @@
+label {
+   margin:1%;
+   font-weight: 700;
+}
+
+.btngrp{
+    margin-left: 25%;
+    margin-top: 10px;
+    
+}
+.startbtn{
+    margin-right: 25px;
+}
+
+.count-text{
+    font-size: .9rem;
+    font-weight: 700;
+    margin-top: 15px;
+    list-style-type:none;;
+}
+
+.error-text {
+    margin-left: 25%;
+    color: #E91E63;
+  }
